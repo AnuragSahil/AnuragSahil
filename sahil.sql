@@ -2,7 +2,7 @@ CREATE TABLE Departments (
     department_id INT PRIMARY KEY,
     department_name VARCHAR(100),
     manager_id INT,
-    location_id INT
+    location_id varchar(50)
 );
 
 CREATE TABLE Employees (
