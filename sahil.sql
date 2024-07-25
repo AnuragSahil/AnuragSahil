@@ -72,7 +72,3 @@ FROM Employees E
 JOIN Departments D ON E.department_id = D.department_id
 GROUP BY D.department_name
 HAVING COUNT(E.employee_id) > 2;
-
-SELECT * 
-FROM Employees 
-WHERE manager_id IS NULL;
